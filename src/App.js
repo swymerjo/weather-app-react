@@ -3,7 +3,7 @@ import './App.css';
 import React from "react";
 import Search from "./Search.js";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -14,4 +14,3 @@ function App() {
   );
 }
 
-export default App;
